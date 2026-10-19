@@ -1,0 +1,16 @@
+{
+  "name": "Wulmufikra Togean Islands Tour & Travel",
+  "short_name": "Wulmufikra Togean",
+  "description": "Paket wisata Kepulauan Togean dari Manado.",
+  "lang": "id",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#F1FAF8",
+  "theme_color": "#0B7F8C",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

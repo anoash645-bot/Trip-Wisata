@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin pesanan | Wulmufikra Togean</title>
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+<header class="bar">
+  <h1>Pesanan masuk</h1>
+  <div class="bar-actions" id="actions" hidden>
+    <label>Status
+      <select id="filter"><option value="">Semua</option></select>
+    </label>
+    <button type="button" id="refresh">Muat ulang</button>
+    <button type="button" id="csv">Unduh CSV</button>
+    <button type="button" id="logout" class="ghost">Keluar</button>
+  </div>
+</header>
+
+<main>
+  <form id="login" class="login">
+    <p>Masukkan token admin (nilai <code>ADMIN_TOKEN</code> di server).</p>
+    <label>Token<input id="token" type="password" autocomplete="current-password" required></label>
+    <button type="submit">Masuk</button>
+    <p class="msg" id="loginMsg" role="alert"></p>
+  </form>
+
+  <section id="panel" hidden>
+    <p class="summary" id="summary"></p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Kode</th><th>Masuk</th><th>Tamu</th><th>Paket</th><th>Berangkat</th><th>Jalur</th><th>Catatan</th><th>Status</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p class="empty" id="empty" hidden>Belum ada pesanan.</p>
+  </section>
+</main>
+<script src="/js/admin.js" defer></script>
+</body>
+</html>
