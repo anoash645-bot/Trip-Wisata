@@ -1,0 +1,261 @@
+[
+  {
+    "id": "una",
+    "name": "Una-Una dan Gunung Colo",
+    "days": 3,
+    "price": 30000000,
+    "tagline": "Mendaki gunung api, snorkeling di antara karang, dan menyusuri jejak sejarah pulau.",
+    "chips": [
+      "Trekking Gunung Colo",
+      "Snorkeling",
+      "Situs sejarah"
+    ],
+    "stay": "Pulau Una-Una",
+    "focus": "Gunung api dan sejarah",
+    "main": "Trekking Gunung Colo, snorkeling, situs peninggalan",
+    "days_": [
+      {
+        "label": "Hari 1",
+        "title": "Tiba dan menikmati pantai",
+        "items": [
+          "Check in. Sarapan, makan siang, dan makan malam sudah termasuk.",
+          "Snorkeling dan berenang di antara terumbu karang dan biota laut warna-warni.",
+          "Bersantai di pantai, menikmati sunrise dan sunset Pulau Una-Una.",
+          "Mengenal kehidupan sosial masyarakat di Una-Una."
+        ]
+      },
+      {
+        "label": "Hari 2",
+        "title": "Trekking Gunung Colo",
+        "items": [
+          "Naik ojek motor sampai kaki gunung, lalu mendaki sekitar satu sampai dua jam melewati medan berbukit.",
+          "Di puncak: panorama Una-Una dan pulau-pulau Togean, hawa belerang, dan danau indah di sekitar kawah.",
+          "Bertemu hewan-hewan endemik.",
+          "Turun, lalu mengunjungi situs peninggalan masa Portugis, Belanda, Jepang, dan Kerajaan Togean."
+        ]
+      },
+      {
+        "label": "Hari 3",
+        "title": "Pantai, lalu pulang",
+        "items": [
+          "Snorkeling, berenang, berjemur, dan jalan-jalan di desa Una-Una.",
+          "Sarapan, check out, lalu speedboat ke Pelabuhan Wakai untuk naik ferry ke Gorontalo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "walea",
+    "name": "Walea",
+    "days": 3,
+    "price": 30000000,
+    "tagline": "Pantai pasir putih, lumba-lumba, dan laut Lumpatan yang jernih.",
+    "chips": [
+      "Lumba-lumba",
+      "Snorkeling",
+      "Pantai pasir putih"
+    ],
+    "stay": "Resor atau bungalow di Walea",
+    "focus": "Pantai dan laut jernih",
+    "main": "Keliling Pulau Tiga, lumba-lumba, laut Lumpatan",
+    "days_": [
+      {
+        "label": "Hari 1",
+        "title": "Pantai pasir putih Walea",
+        "items": [
+          "Check in dan sarapan.",
+          "Menikmati sunrise dan sunset, berjemur di pantai pasir putih.",
+          "Snorkeling dan berenang, melihat terumbu karang dan aneka warna biota laut.",
+          "Minum air kelapa muda di pantai dan menikmati pemandangan Pulau Walea."
+        ]
+      },
+      {
+        "label": "Hari 2",
+        "title": "Keliling dengan perahu lokal",
+        "items": [
+          "Berkeliling naik perahu lokal, melihat pemandangan pegunungan dan ikan lumba-lumba.",
+          "Snorkeling, berenang, dan kegiatan lain di sekitar Pulau Tiga di Walea."
+        ]
+      },
+      {
+        "label": "Hari 3",
+        "title": "Laut Lumpatan, lalu pulang",
+        "items": [
+          "Sarapan, lalu snorkeling dan berenang di laut Lumpatan. Airnya jernih, dengan biota laut, terumbu karang, dan lumba-lumba.",
+          "Sarapan di resor, check out, lalu carter speedboat ke Pelabuhan Wakai.",
+          "Makan malam di rumah makan pelabuhan, naik Ferry Tuna Tomini dengan kamar kabin menuju Leato, Gorontalo.",
+          "Sarapan di Gorontalo, perjalanan darat sekitar delapan jam ke Manado dengan makan siang di Bintauna, lalu diantar ke hotel pilihan Anda."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bajau",
+    "name": "Kampung Suku Bajo, Kabalutan",
+    "days": 3,
+    "price": 30000000,
+    "tagline": "Menginap di desa Bajo terpadat di Togean, rumah-rumah di atas laut.",
+    "chips": [
+      "Budaya Bajo",
+      "Pulau Seribu",
+      "Bomber Belanda"
+    ],
+    "stay": "Homestay Ali, Kabalutan",
+    "focus": "Budaya dan kehidupan Bajo",
+    "main": "Kabalutan, Pulau Layang, situs bomber Belanda",
+    "days_": [
+      {
+        "label": "Hari 1",
+        "title": "Berkenalan dengan suku Bajo",
+        "items": [
+          "Check in. Sarapan, makan siang, dan makan malam sudah termasuk.",
+          "Jalan-jalan di Kabalutan, desa Bajo dengan penduduk terpadat di Togean.",
+          "Melihat pemandangan dari atas bukit Kabalutan, sunrise, dan sunset.",
+          "Melihat kerajinan tangan dan cendera mata, mendengar bahasa Bajo dari anak-anak sampai orang tua.",
+          "Menyaksikan pekerjaan mereka sebagai nelayan. Warganya sangat ramah dan sopan menerima tamu."
+        ]
+      },
+      {
+        "label": "Hari 2",
+        "title": "Pulau Layang, si Pulau Seribu",
+        "items": [
+          "Menyusuri Pulau Layang yang oleh warga Kabalutan dinamai Pulau Seribu.",
+          "Menikmati keindahan pulau-pulaunya, snorkeling, berenang, dan minum kelapa muda di pantai pasir putih."
+        ]
+      },
+      {
+        "label": "Hari 3",
+        "title": "Bomber Belanda, lalu pulang",
+        "items": [
+          "Sarapan, lalu snorkeling di situs sejarah pesawat tempur (bomber) Belanda di depan Pulau Anam dan Desa Lebiti, Kecamatan Togean.",
+          "Kembali ke Homestay Ali untuk makan siang dan istirahat.",
+          "Check out, lanjut ke Pelabuhan Wakai untuk naik Ferry Tuna Tomini menuju Leato, Gorontalo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bisnis",
+    "name": "Kelas Bisnis, Keliling Togean",
+    "days": 5,
+    "price": 35000000,
+    "badge": "Kelas Bisnis",
+    "tagline": "Lima hari menyinggahi Poyalisa, Danau Ubur-ubur, Pulau Papan, Malenge, Kabalutan, dan Kadidiri.",
+    "chips": [
+      "Danau Ubur-ubur",
+      "Burung Alo",
+      "Pulau Papan",
+      "Kabalutan"
+    ],
+    "stay": "Poyalisa, Malenge Indah, Homestay Ali, Kadidiri Paradise",
+    "focus": "Keliling banyak pulau",
+    "main": "Ubur-ubur, burung Alo, mangrove, Pulau Papan, Bajo",
+    "days_": [
+      {
+        "label": "Hari 1",
+        "title": "Poyalisa dan burung Alo",
+        "items": [
+          "Check in di resor atau bungalow Poyalisa. Sarapan, makan siang, dan makan malam sudah disiapkan.",
+          "Pagi sampai sore: snorkeling, berenang, berjemur di pantai pasir putih, melihat terumbu karang dan ikan warna-warni, melihat nelayan memancing, dan minum kelapa muda.",
+          "Sore hari ke Desa Tumbulawa, satu jam dengan speedboat, untuk mengamati burung Alo (rangkong).",
+          "Kembali ke bungalow Poyalisa untuk makan malam dan istirahat."
+        ]
+      },
+      {
+        "label": "Hari 2",
+        "title": "Danau Ubur-ubur sampai Pulau Papan",
+        "items": [
+          "Sarapan, lalu perjalanan dua jam ke Danau Ubur-ubur di Desa Lembanato.",
+          "Tiga jam di sana: foto pemandangan, melihat ubur-ubur dari jembatan, snorkeling dekat ubur-ubur, dan minum kelapa muda.",
+          "Lanjut 45 menit ke Jembatan Mangrove. Satu setengah jam untuk foto, melihat burung endemik, dan hutan mangrove.",
+          "Makan siang dan istirahat dua jam di Bungalow Fadila, Pulau Pangempa, Desa Katupat, sambil menikmati pantai pasir putih.",
+          "Dua jam perjalanan ke Pulau Papan, Desa Kadoda. Tiga jam melihat sunset, terumbu karang, ikan warna-warni, dan jembatan 950 meter yang menghubungkan dua pulau.",
+          "Lanjut 45 menit ke Malenge Indah. Makan malam dan istirahat."
+        ]
+      },
+      {
+        "label": "Hari 3",
+        "title": "Malenge, lalu ke Kabalutan",
+        "items": [
+          "Sarapan, lalu menikmati Pulau Malenge: pantai pasir putih, terumbu karang, snorkeling, berenang, dan kelapa muda.",
+          "Makan siang di Malenge Indah, lalu dua jam dengan speedboat ke Desa Kabalutan, kampung suku Bajo."
+        ]
+      },
+      {
+        "label": "Hari 4",
+        "title": "Hidup di atas laut bersama Bajo",
+        "items": [
+          "Check in di Homestay Ali, Desa Kabalutan.",
+          "Melihat kehidupan masyarakat Bajo: rumah di atas laut, dan tanpa pepohonan karena berdiri di gunung batu karang.",
+          "Naik speedboat melihat Pulau Layang, si Pulau Seribu.",
+          "Snorkeling dan berenang di situs bomber pesawat Belanda di depan Desa Lebiti.",
+          "Setelah makan siang, check out dan lanjut ke Pulau Kadidiri, Resor Paradise."
+        ]
+      },
+      {
+        "label": "Hari 5",
+        "title": "Kadidiri, lalu pulang",
+        "items": [
+          "Santai di pantai pasir putih, snorkeling, berenang, serta sunrise dan sunset di Pulau Kadidiri.",
+          "Setelah makan siang, check out, speedboat ke Pelabuhan Wakai, lalu naik Ferry Tuna Tomini menuju Leato, Gorontalo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grand",
+    "name": "Grand Tour Togean",
+    "days": 6,
+    "price": 35000000,
+    "badge": "Paling lengkap",
+    "tagline": "Perjalanan terpanjang dari Manado. Semua biaya perjalanan sudah dihitung, termasuk tiket masuk dan pemandu lokasi.",
+    "chips": [
+      "Taman Laut Togean",
+      "Danau Ubur-ubur",
+      "Burung Alo",
+      "Kadidiri"
+    ],
+    "stay": "Poyalisa, Malenge Indah, Homestay Ali, Kadidiri Paradise",
+    "focus": "Perjalanan paling lengkap",
+    "main": "Seluruh rute Kelas Bisnis, plus tiket masuk dan pemandu lokasi",
+    "stops": true,
+    "days_": [
+      {
+        "label": "Berangkat",
+        "title": "Dari Manado ke Togean",
+        "items": [
+          "Dijemput di Bandara Sam Ratulangi Manado, sarapan di restoran atau kafe.",
+          "Perjalanan darat Manado ke Gorontalo, makan siang di jalan.",
+          "Makan malam di Pelabuhan Gorontalo, naik ferry dengan kamar kabin ke Pelabuhan Wakai.",
+          "Sarapan di rumah makan Pelabuhan Wakai. Tiket masuk Taman Laut Kepulauan Togean sudah termasuk."
+        ]
+      },
+      {
+        "label": "Di Togean",
+        "title": "Poyalisa sampai Kadidiri",
+        "items": [
+          "Pulau Poyalisa, Desa Bomba: carter speedboat dan menginap di resor.",
+          "Desa Tumbulawa: speedboat dan pemandu untuk melihat burung Alo (rangkong).",
+          "Danau Ubur-ubur: speedboat, tiket masuk, dan pemandu.",
+          "Jembatan Mangrove: tiket masuk sudah termasuk.",
+          "Makan siang di Bungalow Fadila, Desa Katupat.",
+          "Pulau Malenge: menginap di Malenge Indah.",
+          "Desa Kabalutan, kampung suku Bajo: speedboat, pemandu, dan menginap di Homestay Ali.",
+          "Keliling Pulau Layang, si Pulau Seribu, dengan speedboat.",
+          "Pulau Kadidiri: speedboat dan menginap di Resor Paradise."
+        ]
+      },
+      {
+        "label": "Pulang",
+        "title": "Kembali ke Manado",
+        "items": [
+          "Speedboat ke Desa Wakai, makan malam di rumah makan pelabuhan.",
+          "Naik ferry dengan kamar kabin ke Gorontalo.",
+          "Sarapan di restoran atau kafe di Kota Gorontalo.",
+          "Perjalanan darat ke Manado dengan makan siang di jalan. Sopir mengantar Anda dari Manado ke Gorontalo dan kembali."
+        ]
+      }
+    ],
+    "note": "Urutan di atas mengikuti rute perjalanan. Pembagian jadwal per hari akan kami konfirmasi saat Anda memesan."
+  }
+]
