@@ -1,0 +1,18 @@
+# Untuk Google App Engine Standard (gcloud app deploy).
+# Cloud Run lebih disarankan, lihat README. Ganti SITE_URL sebelum deploy.
+runtime: nodejs22
+instance_class: F1
+env_variables:
+  NODE_ENV: "production"
+  SITE_URL: "https://GANTI-DENGAN-DOMAIN-ANDA"
+  STORAGE: "firestore"
+  # ADMIN_TOKEN jangan ditulis di sini jika repo Anda dibagikan.
+  # Atur lewat Secret Manager atau pakai Cloud Run (yang mendukung --set-secrets).
+handlers:
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto
+automatic_scaling:
+  min_instances: 0
+  max_instances: 2

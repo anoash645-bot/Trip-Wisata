@@ -1,0 +1,14 @@
+{
+  "name": "togean-wisata",
+  "version": "1.0.0",
+  "description": "Situs paket wisata Kepulauan Togean (Wulmufikra Togean Islands Tour & Travel). Node.js full stack tanpa dependensi.",
+  "main": "server.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  }
+}
