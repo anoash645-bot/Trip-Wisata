@@ -1,0 +1,27 @@
+[hidden]{display:none!important}
+:root{--bg:#F1FAF8;--surface:#fff;--text:#082631;--muted:#456268;--line:#C6E0DC;--brand:#0B7F8C;--brand-strong:#065A64;color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root{--bg:#061A21;--surface:#0B2A33;--text:#E6F5F3;--muted:#9FC0C5;--line:#184650;--brand:#4FD1C5;--brand-strong:#8FE6DD}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.bar{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid var(--line);background:var(--surface)}
+.bar h1{margin:0;font-size:1.3rem}
+.bar-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+.bar-actions label{display:grid;gap:4px;font-size:.85rem;color:var(--muted)}
+main{padding:24px;max-width:1400px;margin:0 auto}
+button,select,input{font:inherit;color:var(--text);background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:8px 12px}
+button{cursor:pointer;background:var(--brand);border-color:var(--brand);color:#fff;font-weight:600}
+button.ghost{background:transparent;color:var(--text);border-color:var(--line)}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.login{max-width:380px;display:grid;gap:12px;margin:48px auto;background:var(--surface);border:1px solid var(--line);padding:24px;border-radius:16px}
+.login label{display:grid;gap:6px;font-weight:600}
+.msg{color:#C0392B;min-height:1.4em;margin:0}
+.summary{color:var(--muted)}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+table{width:100%;border-collapse:collapse;min-width:980px;font-size:.92rem}
+th,td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+th{background:var(--bg);color:var(--muted);font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td small{display:block;color:var(--muted)}
+td.note{max-width:280px;white-space:pre-wrap;overflow-wrap:anywhere}
+.ref{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700;color:var(--brand-strong)}
+.empty{text-align:center;color:var(--muted);padding:32px}
