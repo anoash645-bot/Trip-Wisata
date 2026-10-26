@@ -1,6 +1,6 @@
 'use strict';
 const config = require('../config');
-const { site, facts, routes, places, gallery, included, notIncluded, notIncludedNote, extras, team, faq } = require('../data/site');
+const { site, facts, routes, places, gallery, included, notIncluded, notIncludedNote, extras, team, faq, guideService } = require('../data/site');
 const { packages, findPackage } = require('../data/packages');
 const { esc, fmt, truncate, img } = require('./helpers');
 const { layout, WA_URL } = require('./layout');
@@ -56,6 +56,24 @@ ${facts.map(([b, s]) => `  <li>${esc(b)}<span>${esc(s)}</span></li>`).join('\n')
       <p>Geser tabel ke samping di layar kecil.</p>
     </div>
     <div class="cmp-wrap" tabindex="0" role="region" aria-label="Tabel perbandingan paket">${compareTable()}</div>
+  </div>
+</section>
+
+<section id="pemandu" aria-labelledby="pemandu-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="pemandu-h">Jasa pemandu wisata</h2>
+      <p>${esc(guideService.intro)} Cocok bila Anda sudah mengatur transportasi dan penginapan sendiri.</p>
+    </div>
+    <div class="guide-prices">${guideService.prices.map((g) => `
+      <a class="gp" href="${WA_URL}?text=${encodeURIComponent(`Halo, saya ingin memakai jasa pemandu wisata ${g.label} di Kepulauan Togean.`)}" target="_blank" rel="noopener" aria-label="Pesan pemandu ${g.label}, ${fmt(g.price)}, lewat WhatsApp">
+        <span>${g.label}</span><strong>${fmt(g.price)}</strong><small>Tanya lewat WhatsApp</small>
+      </a>`).join('')}
+    </div>
+    <div class="box no guide-note">
+      <h3>Ditanggung tamu</h3>
+      <ul>${guideService.guestPays.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+    </div>
   </div>
 </section>
 
@@ -152,7 +170,7 @@ ${bookingSection('bisnis')}`;
     home: true,
     lightbox: true,
     preload: '<link rel="preload" as="image" imagesrcset="/images/hero-1100.webp 1100w, /images/hero.webp 1600w" imagesizes="100vw" fetchpriority="high">',
-    jsonld: ld.toScript([ld.organization(), ld.website(), ld.itemList(), ...packages.map((p) => ld.trip(p)), ld.faqPage()]),
+    jsonld: ld.toScript([ld.organization(), ld.website(), ld.itemList(), ...packages.map((p) => ld.trip(p)), ld.guideService(), ld.faqPage()]),
     body,
   });
 }
@@ -277,3 +295,4 @@ Sitemap: ${config.siteUrl}/sitemap.xml
 }
 
 module.exports = { home, packagePage, notFound, sitemap, robots, findPackage };
+                       
