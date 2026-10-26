@@ -4,7 +4,7 @@ const { site } = require('../data/site');
 const { assetUrl } = require('../lib/http');
 const { esc, img } = require('./helpers');
 
-const NAV = [['paket', 'Paket'], ['rute', 'Rute'], ['tempat', 'Tempat'], ['penginapan', 'Penginapan'], ['termasuk', 'Termasuk'], ['tentang', 'Tentang']];
+const NAV = [['paket', 'Paket'], ['pemandu', 'Pemandu'], ['rute', 'Rute'], ['tempat', 'Tempat'], ['penginapan', 'Penginapan'], ['termasuk', 'Termasuk'], ['tentang', 'Tentang']];
 const WA_URL = `https://wa.me/${site.whatsapp}`;
 
 const header = (home) => {
