@@ -38,6 +38,8 @@ test('beranda: SSR lengkap dengan meta SEO dan JSON-LD', async () => {
   assert.match(html, /application\/ld\+json/);
   assert.match(html, /Rp 35\.000\.000/);
   assert.equal((html.match(/<h1/g) || []).length, 1, 'harus tepat satu <h1>');
+  assert.match(html, /id="pemandu"/);
+  for (const rp of ['Rp 2.000.000', 'Rp 3.000.000', 'Rp 5.000.000', 'Rp 6.000.000']) assert.ok(html.includes(rp), rp);
   assert.ok(!/<img(?![^>]*\balt=)/.test(html), 'semua <img> punya alt');
 });
 
