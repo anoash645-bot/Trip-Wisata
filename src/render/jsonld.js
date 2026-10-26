@@ -1,6 +1,6 @@
 'use strict';
 const config = require('../config');
-const { site, faq } = require('../data/site');
+const { site, faq, guideService } = require('../data/site');
 const { packages } = require('../data/packages');
 
 const abs = (p) => `${config.siteUrl}${p}`;
@@ -84,8 +84,21 @@ const itemList = () => ({
   itemListElement: packages.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/paket/${p.slug}`), name: p.name })),
 });
 
+const guide = () => ({
+  '@type': 'Service',
+  '@id': abs('/#pemandu'),
+  name: guideService.name,
+  description: guideService.intro,
+  serviceType: 'Pemandu wisata',
+  provider: { '@id': ORG_ID },
+  areaServed: { '@type': 'Place', name: 'Kepulauan Togean, Sulawesi Tengah' },
+  offers: guideService.prices.map((g) => ({
+    '@type': 'Offer', name: `Pemandu wisata ${g.label}`, price: String(g.price), priceCurrency: 'IDR', url: abs('/#pemandu'),
+  })),
+});
+
 /** Serialisasi aman untuk ditaruh di dalam <script>. */
 const toScript = (nodes) =>
   `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': nodes }).replace(/</g, '\\u003c')}</script>`;
 
-module.exports = { organization, website, trip, breadcrumb, faqPage, itemList, toScript, abs };
+module.exports = { organization, website, trip, breadcrumb, faqPage, itemList, guideService: guide, toScript, abs };
